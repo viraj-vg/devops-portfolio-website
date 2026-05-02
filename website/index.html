@@ -1,1 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viraj Ghodvinde — Cloud & DevOps Engineer</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+     
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-ring" id="cursorRing"></div>
+
+    <!-- NAV -->
+    <nav>
+        <div class="nav-logo">Viraj<span>@</span>cloud:~$</div>
+        <h1>This was updated</h1>
+        <ul class="nav-links">
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#learning">Roadmap</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- HERO -->
+    <section id="hero">
+        <div class="hero-orb orb1"></div>
+        <div class="hero-orb orb2"></div>
+
+        <div class="hero-content">
+            <div class="hero-badge"><span class="badge-dot"></span> Open to Internships & Opportunities</div>
+            <h1 class="hero-name">Ghodvinde<br><span class="highlight">Viraj</span></h1>
+            <p class="hero-title">
+                <span class="tag">//</span> Cloud Engineering
+                <span class="tag">·</span> DevOps
+                <span class="tag">·</span> Full Stack Developer
+            </p>
+            <p class="hero-desc">
+                BSC IT student on a mission to bridge the gap between development and operations.
+                I build scalable cloud infrastructure, automate everything, and ship full-stack applications.
+            </p>
+            <div class="hero-cta">
+                <a href="#projects" class="btn-primary">
+                    <span>View Projects</span>
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M5 12h14M12 5l7 7-7 7" />
+                    </svg>
+                </a>
+                <a href="#contact" class="btn-outline">Get in Touch</a>
+            </div>
+
+            <!-- <div class="hero-stats">
+      <div>
+        <div class="stat-num">12+</div>
+        <div class="stat-label">Projects Shipped</div>
+      </div>
+      <div>
+        <div class="stat-num">3</div>
+        <div class="stat-label">Cloud Platforms</div>
+      </div>
+      <div>
+        <div class="stat-num">8+</div>
+        <div class="stat-label">Technologies</div>
+      </div>
+      <div>
+        <div class="stat-num">∞</div>
+        <div class="stat-label">Coffee Consumed</div>
+      </div>
+    </div>
+  </div> -->
+
+            <!-- Terminal -->
+            <div class="terminal">
+                <div class="terminal-bar">
+                    <div class="t-dot r"></div>
+                    <div class="t-dot y"></div>
+                    <div class="t-dot g"></div>
+                    <span class="t-title">viraj@dev: ~/portfolio</span>
+                </div>
+                <div class="terminal-body">
+                    <div class="t-line"><span class="t-prompt">❯</span><span class="t-cmd"> whoami</span></div>
+                    <div class="t-out blue">Viraj — Cloud & DevOps Student</div>
+                    <br>
+                    <div class="t-line"><span class="t-prompt">❯</span><span class="t-cmd"> kubectl get pods
+                            --all</span></div>
+                    <div class="t-out green">✔ api-gateway &nbsp;&nbsp;&nbsp;&nbsp; Running</div>
+                    <div class="t-out green">✔ frontend-app &nbsp;&nbsp; Running</div>
+                    <div class="t-out green">✔ postgres-db &nbsp;&nbsp;&nbsp; Running</div>
+                    <div class="t-out green">✔ redis-cache &nbsp;&nbsp;&nbsp; Running</div>
+                    <br>
+                    <div class="t-line"><span class="t-prompt">❯</span><span class="t-cmd"> terraform plan</span></div>
+                    <div class="t-out">Plan: 8 to add, 0 to destroy.</div>
+                    <br>
+                    <div class="t-line"><span class="t-prompt">❯</span><span class="t-cmd"> git log --oneline -3</span>
+                    </div>
+                    <div class="t-out purple">a3f8c12 feat: CI/CD pipeline with GitHub Actions</div>
+                    <div class="t-out purple">b2e4d91 fix: auto-scaling config on EKS</div>
+                    <div class="t-out purple">c7a1f30 chore: Dockerfile optimization</div>
+                    <br>
+                    <div class="t-line"><span class="t-prompt">❯</span><span class="t-cmd"> <span
+                                class="t-cursor"></span></span></div>
+                </div>
+            </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+        <div class="section-header reveal">
+            <span class="section-num">01</span>
+            <h2 class="section-title">Skills & Stack</h2>
+            <div class="section-line"></div>
+        </div>
+
+        <div class="skills-grid">
+            <div class="skill-card reveal">
+                <span class="skill-icon">☁️</span>
+                <div class="skill-category">Cloud Platforms</div>
+                <h3 class="skill-name">Cloud Engineering</h3>
+                <div class="skill-tags">
+                    <span class="tag cyan">AWS</span>
+                    <span class="tag cyan">EC2 / S3</span>
+                    <span class="tag cyan">Lambda</span>
+                    <span class="tag cyan">CloudFormation</span>
+                </div>
+            </div>
+
+            <div class="skill-card reveal">
+                <span class="skill-icon">⚙️</span>
+                <div class="skill-category">DevOps & Automation</div>
+                <h3 class="skill-name">DevOps</h3>
+                <div class="skill-tags">
+                    <span class="tag green">Docker</span>
+                    <span class="tag green">Kubernetes</span>
+                    <span class="tag green">Terraform</span>
+                    <span class="tag green">GitHub Actions</span>
+                    
+                </div>
+            </div>
+
+            <div class="skill-card reveal">
+                <span class="skill-icon">🖥️</span>
+                <div class="skill-category">Frontend</div>
+                <h3 class="skill-name">Frontend Dev</h3>
+                <div class="skill-tags">
+                    <span class="tag purple">React</span>
+                    <span class="tag purple">Next.js</span>
+                    <span class="tag purple">TypeScript</span>
+                    <span class="tag purple">Tailwind CSS</span>
+                    <span class="tag purple">HTML/CSS</span>
+                </div>
+            </div>
+
+            <div class="skill-card reveal">
+                <span class="skill-icon">🔧</span>
+                <div class="skill-category">Backend</div>
+                <h3 class="skill-name">Backend Dev</h3>
+                <div class="skill-tags">
+                    <span class="tag orange">Node.js</span>
+                    <span class="tag orange">Python</span>
+                    <span class="tag orange">Express</span>
+                    <span class="tag orange">PostgreSQL</span>
+                </div>
+            </div>
+
+            <div class="skill-card reveal">
+                <span class="skill-icon">📊</span>
+                <div class="skill-category">Observability</div>
+                <h3 class="skill-name">Monitoring</h3>
+                <div class="skill-tags">
+                    <span class="tag cyan">Prometheus</span>
+                    <span class="tag cyan">Grafana</span>
+                    <span class="tag cyan">ELK Stack</span>
+                    <span class="tag cyan">Datadog</span>
+                    <span class="tag cyan">CloudWatch</span>
+                </div>
+            </div>
+
+            <div class="skill-card reveal">
+                <span class="skill-icon">🔐</span>
+                <div class="skill-category">Security & Networking</div>
+                <h3 class="skill-name">Security</h3>
+                <div class="skill-tags">
+                    <span class="tag green">IAM / RBAC</span>
+                    <span class="tag green">VPC</span>
+                    <span class="tag green">SSL/TLS</span>
+                    <span class="tag green">OWASP</span>
+                    <span class="tag green">Vault</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+        <div class="section-header reveal">
+            <span class="section-num">02</span>
+            <h2 class="section-title">Projects</h2>
+            <div class="section-line"></div>
+        </div>
+
+        <div class="projects-grid">
+            <!-- Featured Project -->
+            <div class="project-card reveal">
+                <div>
+                    <div class="project-num">01</div>
+                    <div class="project-tags">
+                        <span class="tag cyan">AWS EKS</span>
+                        <span class="tag green">Terraform</span>
+                        <span class="tag orange">Node.js</span>
+                        <span class="tag purple">React</span>
+                    </div>
+                    <h3 class="project-title">Cloud-Native E-Commerce Platform</h3>
+                    <p class="project-desc">
+                        A fully containerized e-commerce application deployed on Amazon EKS with auto-scaling,
+                        blue-green deployments, and a complete CI/CD pipeline. Infrastructure provisioned
+                        with Terraform. Handles 10k+ requests/min with 99.9% uptime.
+                    </p>
+                    <a href="#" class="project-link">View Case Study →</a>
+                </div>
+                <div class="project-visual">
+                    <div class="pv-line"><span class="pv-c"># terraform/main.tf</span></div>
+                    <div class="pv-line"><span class="pv-k">module</span> <span class="pv-s">"eks_cluster"</span> <span
+                            class="pv-c">{</span></div>
+                    <div class="pv-line pv-indent"><span class="pv-k">source</span> = <span
+                            class="pv-v">"terraform-aws-modules/eks"</span></div>
+                    <div class="pv-line pv-indent"><span class="pv-k">cluster_name</span> = <span
+                            class="pv-v">"prod-cluster"</span></div>
+                    <div class="pv-line pv-indent"><span class="pv-k">cluster_version</span> = <span
+                            class="pv-v">"1.28"</span></div>
+                    <div class="pv-line pv-indent"><span class="pv-k">node_groups</span> = <span class="pv-c">{</span>
+                    </div>
+                    <div class="pv-line" style="padding-left:40px"><span class="pv-k">min_size</span> = <span
+                            class="pv-s">2</span></div>
+                    <div class="pv-line" style="padding-left:40px"><span class="pv-k">max_size</span> = <span
+                            class="pv-s">10</span></div>
+                    <div class="pv-line pv-indent"><span class="pv-c">}</span></div>
+                    <div class="pv-line"><span class="pv-c">}</span></div>
+                </div>
+            </div>
+
+            <div class="project-card reveal">
+                <div class="project-num">02</div>
+                <div class="project-tags">
+                    <span class="tag green">GitHub Actions</span>
+                    <span class="tag cyan">Docker</span>
+                    <span class="tag orange">Python</span>
+                </div>
+                <h3 class="project-title">Automated CI/CD Pipeline</h3>
+                <p class="project-desc">
+                    Multi-stage pipeline with automated testing, security scanning (SAST/DAST),
+                    Docker image building, and rolling deployments to staging and production environments.
+                </p>
+                <a href="#" class="project-link">GitHub Repo →</a>
+            </div>
+
+            <div class="project-card reveal">
+                <div class="project-num">03</div>
+                <div class="project-tags">
+                    <span class="tag cyan">Prometheus</span>
+                    <span class="tag purple">Grafana</span>
+                    <span class="tag green">Kubernetes</span>
+                </div>
+                <h3 class="project-title">Observability Dashboard</h3>
+                <p class="project-desc">
+                    End-to-end monitoring stack for microservices — metrics, logs, traces, and alerts.
+                    Custom Grafana dashboards tracking SLOs and SLAs with PagerDuty integration.
+                </p>
+                <a href="#" class="project-link">Live Demo →</a>
+            </div>
+
+            <div class="project-card reveal">
+                <div class="project-num">04</div>
+                <div class="project-tags">
+                    <span class="tag purple">Next.js</span>
+                    <span class="tag orange">FastAPI</span>
+                    <span class="tag cyan">AWS Lambda</span>
+                </div>
+                <h3 class="project-title">Serverless Task Manager</h3>
+                <p class="project-desc">
+                    Full-stack task management app with a Next.js frontend, FastAPI backend, and
+                    event-driven serverless functions. Deployed on AWS with Cognito auth and DynamoDB.
+                </p>
+                <a href="#" class="project-link">GitHub Repo →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- LEARNING ROADMAP -->
+    <section id="learning">
+        <div class="section-header reveal">
+            <span class="section-num">03</span>
+            <h2 class="section-title">Learning Roadmap</h2>
+            <div class="section-line"></div>
+        </div>
+
+        <div class="roadmap">
+            <div class="road-item">
+                <div class="road-dot done">✓</div>
+                <div class="road-content">
+                    <div class="road-status done">Completed</div>
+                    <h3 class="road-title">Linux & Networking Fundamentals</h3>
+                    <p class="road-desc">Mastered Linux administration, shell scripting, TCP/IP networking, DNS, HTTP/S,
+                        and firewall configuration.</p>
+                    <div class="road-techs">
+                        <span class="tag green">Linux</span>
+                        <span class="tag green">Bash</span>
+                        <span class="tag green">Networking</span>
+                        <span class="tag green">SSH</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="road-item">
+                <div class="road-dot done">✓</div>
+                <div class="road-content">
+                    <div class="road-status done">Completed</div>
+                    <h3 class="road-title">Containerization & Orchestration</h3>
+                    <p class="road-desc">Built and deployed multi-container applications using Docker Compose, then
+                        scaled with Kubernetes on EKS.</p>
+                    <div class="road-techs">
+                        <span class="tag cyan">Docker</span>
+                        <span class="tag cyan">Kubernetes</span>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="road-item">
+                <div class="road-dot active">→</div>
+                <div class="road-content">
+                    <div class="road-status active">In Progress</div>
+                    <h3 class="road-title">AWS Solutions Architect — Associate</h3>
+                    <p class="road-desc">Studying for the AWS SAA-C03 certification. Currently exploring VPC design,
+                        RDS, and high-availability architectures.</p>
+                    <div class="road-techs">
+                        <span class="tag cyan">AWS SAA-C03</span>
+                        <span class="tag cyan">VPC</span>
+                        <span class="tag cyan">RDS</span>
+                        <span class="tag cyan">CloudFront</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="road-item">
+                <div class="road-dot planned">○</div>
+                <div class="road-content">
+                    <div class="road-status planned">Planned</div>
+                    <h3 class="road-title">Infrastructure as Code — Deep Dive</h3>
+                    <p class="road-desc">Advanced Terraform modules, state management, and exploring Pulumi for
+                        cloud-agnostic IaC.</p>
+                    <div class="road-techs">
+                        <span class="tag orange">Terraform</span>
+
+                        <span class="tag orange">CDK</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <div class="section-header reveal">
+            <span class="section-num">04</span>
+            <h2 class="section-title">Contact</h2>
+            <div class="section-line"></div>
+        </div>
+
+        <div class="contact-grid">
+            <div class="reveal">
+                <h2 class="contact-heading">Let's build something <span class="accent">cloud-native</span> together.
+                </h2>
+                <p class="contact-subtext">
+                    Open to internship opportunities, collaborative projects, and conversations about cloud
+                    architecture,
+                    DevOps practices, and full-stack development.
+                </p>
+                <div class="contact-links">
+                    <a href="mailto:@email.com" class="contact-link">
+                        <span class="cl-icon">📧</span>
+                        <div>
+                            <div class="cl-label">Email</div>
+                            <div class="cl-value">Demo@email.com</div>
+                        </div>
+                    </a>
+                    <a href="https://linkedin.com" class="contact-link" target="_blank">
+                        <span class="cl-icon">🔗</span>
+                        <div>
+                            <div class="cl-label">LinkedIn</div>
+                            <div class="cl-value">linkedin.com</div>
+                        </div>
+                    </a>
+                    <a href="https://github.com" class="contact-link" target="_blank">
+                        <span class="cl-icon">⌥</span>
+                        <div>
+                            <div class="cl-label">GitHub</div>
+                            <div class="cl-value">github.com</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="reveal">
+                <div class="contact-form">
+                    <div class="form-group">
+                        <label class="form-label">Your Name</label>
+                        <input class="form-input" type="text" placeholder="Enter Your Name">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Email Address</label>
+                        <input class="form-input" type="email" placeholder="enter@gmail.com">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Message</label>
+                        <textarea class="form-textarea"
+                            placeholder="Tell me about your project or opportunity..."></textarea>
+                    </div>
+                    <button class="form-btn" onclick="handleSend()">Send Message</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-text">Designed & Built by <span>Viraj Ghodvinde</span> — 2025</div>
+        <div class="footer-text">Built with <span>HTML · CSS · JS</span> · Hosted on <span>AWS S3 + CloudFront</span>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
