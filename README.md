@@ -29,7 +29,7 @@ This project demonstrates a complete DevOps workflow by deploying a static portf
 ---
 
 ## 🌐 Live Demo
-http://your-bucket-name.s3-website-eu-north-1.amazonaws.com
+http://my-portfolo-s3.s3-website.eu-north-1.amazonaws.com
 
 ---
 
