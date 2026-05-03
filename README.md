@@ -10,6 +10,28 @@ This project demonstrates a complete DevOps workflow by deploying a static portf
 - GitHub Actions for CI/CD pipeline
 - IAM for secure access management
 
+-       ┌──────────────┐
+        │   Developer  │
+        └──────┬───────┘
+               │ push code
+               ▼
+        ┌──────────────┐
+        │   GitHub     │
+        └──────┬───────┘
+               │ triggers
+               ▼
+        ┌──────────────┐
+        │ GitHub Actions│
+        └──────┬───────┘
+               │ deploys
+               ▼
+        ┌──────────────┐
+        │   AWS S3     │
+        └──────┬───────┘
+               │ hosts
+               ▼
+        🌐 Live Website
+
 ---
 
 ## ⚙️ Tech Stack
